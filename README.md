@@ -24,5 +24,16 @@ Top View
 
 Top View Labeled
 
+Circuit Diagram
 
+Block Diagram
+
+
+Details:
+
+The Infrared System was provided by SPU's Engineering Department. It plugs into wall outlet power. It has 3 infrared emitters that each send a 10 kHz, 17 kHz, or 25 kHz respectively. On the other side, their are 3 IR detectors which receive the signals. The signals are then combined into one output wire. Each signal was about 3 V peak to peak, so if all 3 switches were turned on, then the total signal would be about 9 V peak to peak.
+
+My circuit's goal was to turn on an LED if the 25 kHz signal was present, regardless of whether the other 2 signals were on.
+
+First the circuit uses a bandpass filter centered on 25 kHz to block out the 17 kHz and 10 kHz signals. Then it has a peak detector which converts the ...
 

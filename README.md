@@ -1,6 +1,6 @@
 # 25-kHz-Filter-Project
 
-This circuit receives an external signal that is a any possible combination of 10 kHz, 17 kHz, and 25 kHz. The circuit is designed to detect if the 25 kHz component is present, regardless of whether the other 2 signals are on. If the 25 kHz signal is detected, an LED turns on.
+This circuit receives an external signal that is any possible combination of 10 kHz, 17 kHz, and 25 kHz. The circuit is designed to detect if the 25 kHz component is present, regardless of whether the other 2 signals are on. If the 25 kHz signal is detected, an LED turns on.
 
 Top View Labeled
 ![top view with LED on Labeled](https://github.com/user-attachments/assets/356cb7ed-0e37-4d70-a8c7-954709c27c79)

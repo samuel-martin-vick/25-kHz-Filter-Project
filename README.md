@@ -14,7 +14,7 @@ Frequency Response Analysis
 ![FRA](https://github.com/user-attachments/assets/df71b86d-91ec-4273-8d8d-4d9226b9c63f)
 
 
-Setup
+Setup \
 <img width="418" alt="setup" src="https://github.com/user-attachments/assets/19e32272-8819-410a-b2c0-19ac09b52fd2" />
 
 
@@ -36,7 +36,7 @@ Block Diagram
 
 Details:
 
-The Infrared System was provided by SPU's Engineering Department. It plugs into wall outlet power. It has 3 infrared emitters that each send a 10 kHz, 17 kHz, or 25 kHz respectively. On the other side, their are 3 IR detectors which receive the signals. The signals are then combined into one output wire. Each signal was about 3 V peak to peak, so if all 3 switches were turned on, then the total signal would be about 9 V peak to peak.
+The Infrared System was provided by SPU's Engineering Department. It plugs into wall outlet power. It has 3 infrared emitters that each send a 10 kHz, 17 kHz, or 25 kHz respectively. On the other side, there are 3 IR detectors which receive the signals. The signals are then combined into one output wire. Each signal was about 3 V peak to peak, so if all 3 switches were turned on, then the total signal would be about 9 V peak to peak.
 
-First the circuit uses a bandpass filter centered on 25 kHz to block out the 17 kHz and 10 kHz signals. Then it has a peak detector which converts the AC signal to DC. Then a comparator detects if the output voltage of the peak detector is above a certain threshold (~0.8 V), it will output +5V. Which will then turn on the LED.
+First the circuit uses a bandpass filter centered on 25 kHz to block out the 17 kHz and 10 kHz signals. Then it has a peak detector which converts the AC signal to DC. Then a comparator detects if the output voltage of the peak detector is above a certain threshold (~0.8 V). If detected, it outputs +5V which powers on the LED.
 
